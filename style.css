@@ -1,17 +1,42 @@
-.login {
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
-    width: 100%;
-    border: 15px solid #0664AA;
-
-    border-radius: 35px;
-
-    margin: 90px auto 30px auto;
-    width: 450px;
-    background-color: fff;
-    margin-bottom: 5px;
-    width: 450PX;
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:522px;
+    height:500px;
+    border: 1px solid grey;
+    justify-content: center;
+    
+}
+.box {
+    width: 50px;
+    height: 50px;
+    outline: none;
     text-align: center;
+    
+}
+.check-button {
+    height: 40px;
+    margin-top: 10px;
+    width: 200px;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    width: 522px;
+    justify-content: space-around;
+    border: 2px solid blue;
+}
 
 
-
+#B3, #B12, #B21, #B30{
+    border-left:2px black;
+    border-style:groove;
 }
