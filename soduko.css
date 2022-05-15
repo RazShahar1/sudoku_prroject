@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:522px;
+    height:500px;
+    border: 1px solid grey;
+    justify-content: center;
+    
+}
+.box {
+    width: 50px;
+    height: 50px;
+    outline: none;
+    text-align: center;
+    
+}
+.check-button {
+    height: 40px;
+    margin-top: 10px;
+    width: 200px;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    width: 522px;
+    justify-content: space-around;
+}
+
+#b3,#b12,#b21,#b6,#b15,#b24,#b30,#b39,#b48,#b57,#b66,#b75,#b33,#b42,#b51,#b60,#b69,#b78{
+    border-left: 2px solid black;
+}
+
+#b27,#b28,#b29,#b30,#b31,#b32,#b33,#b34,#b35,#b54,#b55,#b56,#b57,#b58,#b59,#b60,#b61,#b62{
+    border-top: 2px solid black;
+}
+
+#error{
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    text-align: center;
+}
